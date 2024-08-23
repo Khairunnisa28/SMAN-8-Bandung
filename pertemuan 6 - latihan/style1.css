@@ -1,0 +1,180 @@
+/* Global Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f9f9f9 25%, #e0e0e0 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headers */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Jam Operasional Section */
+.jam_operasional h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.jam_operasional h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #555;
+}
+
+.jam_operasional p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.jam_operasional button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jam_operasional button:hover {
+    background-color: #0056b3;
+}
+
+/* Tiket Masuk Section */
+.tiket_masuk .table {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tiket_masuk .table th,
+.tiket_masuk .table td {
+    text-align: center;
+}
+
+/* Museum Section */
+.tiket_museum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tiket_museum .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tiket_museum .card img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.tiket_museum .card-body {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.tiket_museum .card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.tiket_museum .card-text {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+/*Navbar styling*/
+nav{
+    background-color: black;
+    padding: 10px 20px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav ul li a:hover, 
+nav ul li .dropdown-content a:hover{
+    background-color: green;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Buy Ticket Button Styling */
+.buy-ticket {
+    background-color: red;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.buy-ticket:hover {
+    background-color: darkred;
+}
